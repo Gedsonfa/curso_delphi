@@ -1,0 +1,38 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Primeiro Sistema'
+  ClientHeight = 110
+  ClientWidth = 624
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poDesigned
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 141
+    Top = 32
+    Width = 86
+    Height = 15
+    Caption = 'Digite seu nome'
+  end
+  object InputNome: TEdit
+    Left = 8
+    Top = 53
+    Width = 361
+    Height = 23
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 152
+    Top = 82
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end
